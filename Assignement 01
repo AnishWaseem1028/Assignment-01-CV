@@ -26,8 +26,8 @@ def hybrid_image(img1_path, img2_path, low_freq_weight=0.5, high_freq_weight=0.5
     return hybrid
 
 # Input image paths
-image1_path = "image1.jpg"  # Replace with the path to your first image
-image2_path = "image2.jpg"  # Replace with the path to your second image
+image1_path = "IMG1.jpg"  # Replace with the path to your first image
+image2_path = "IMG2.jpg"  # Replace with the path to your second image
 
 # Create the hybrid image
 hybrid = hybrid_image(image1_path, image2_path)
